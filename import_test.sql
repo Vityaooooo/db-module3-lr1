@@ -1,6 +1,6 @@
 -- Создание базы данных
-CREATE DATABASE ElectricBankDB;
-USE ElectricBankDB;
+CREATE DATABASE lr_1;
+USE lr_1;
 
 -- Создание таблицы физические лица
 CREATE TABLE individuals (
