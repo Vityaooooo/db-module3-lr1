@@ -11,8 +11,8 @@ CREATE TABLE individuals (
     passport VARCHAR(10),
     inn VARCHAR(12),
     snils VARCHAR(11),
-    drivers_license VARCHAR(20),
-    additional_documents TEXT,
+    driver_license VARCHAR(20),
+    additional_docs TEXT,
     notes TEXT
 );
 
@@ -50,7 +50,7 @@ CREATE TABLE borrowers (
     address TEXT,
     amount DECIMAL(10, 2),
     conditions TEXT,
-    legal_notes TEXT,
+    notes TEXT,
     contract_list TEXT
 );
 
